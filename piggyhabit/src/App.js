@@ -278,6 +278,34 @@ function App() {
             {/* Savings Progress Bar */}
             <ProgressBar value={balance} max={goal || 0} />
 
+            {/* Motivational/Habit Quote */}
+            <div
+              aria-label="Motivational Quote"
+              style={{
+                background: 'rgba(255,255,255,0.065)',
+                border: '1.5px solid var(--border-color)',
+                color: 'var(--text-color)',
+                boxShadow: '0 1.5px 12px 0 rgba(232,122,65,0.08)',
+                padding: '16px 20px',
+                borderRadius: 10,
+                margin: '0 0 18px 0',
+                width: '100%',
+                textAlign: 'center',
+                fontSize: '1.08rem',
+                fontStyle: 'italic',
+                letterSpacing: '0.01em',
+                fontWeight: 500,
+                position: 'relative',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                gap: 8,
+              }}
+            >
+              <span role="img" aria-label="Lightbulb" style={{ color: 'var(--kavia-orange)', fontSize: 22, marginRight: 6 }}>💡</span>
+              <span>{quote}</span>
+            </div>
+
             {/* Add / Remove Controls */}
             <div style={{
               display: 'flex',
