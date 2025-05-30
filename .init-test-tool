@@ -1,0 +1,4 @@
+{
+    "command": "npm run test",
+    "working_directory": "/home/kavia/workspace/code-generation/piggyhabit-16176-ea9bb7d7/piggyhabit"
+}
