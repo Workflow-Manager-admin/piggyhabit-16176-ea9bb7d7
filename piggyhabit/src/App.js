@@ -145,6 +145,21 @@ function SavingsHistory({ history }) {
 }
 
 function App() {
+  // --- MOTIVATIONAL QUOTES ---
+  // Array of habit/savings-related quotes
+  const QUOTES = [
+    "Small habits make big changes. Keep it up!",
+    "Every coin counts on your way to your goal.",
+    "Consistency is the key to growing your savings.",
+    "Success starts with a single step (or coin)!",
+    "Good habits today lead to achievements tomorrow.",
+    "Your future self will thank you for saving today.",
+    "Big dreams start small. Save a little each day!",
+    "Progress, not perfection—add something to your piggy!"
+  ];
+  // Pick a random quote on mount/reload
+  const [quote] = useState(() => QUOTES[Math.floor(Math.random() * QUOTES.length)]);
+
   // --- STATE ---
   // PUBLIC_INTERFACE
   const [balance, setBalance] = useState(0);
