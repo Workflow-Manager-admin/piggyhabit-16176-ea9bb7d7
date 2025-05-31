@@ -1,0 +1,1 @@
+{"is_source_file": true, "file_id": 17, "git_revision": "", "state": 1, "description": "", "external_files": [], "external_methods": [], "published": [], "classes": [], "methods": [], "calls": [], "search-terms": [], "hash": "be6538e7523bc2e9da0743133d784136", "format-version": 4, "code-base-name": "default", "filename": "piggyhabit/eslint.config.mjs", "knowledge_revision": 16}
